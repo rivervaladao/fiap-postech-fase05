@@ -1,3 +1,8 @@
+# 📘 Como executar inferencia
+```console
+$ pip install -r requirements.txt
+$ python anomaly-detection/inference.py <caminho video ou imagem>
+```
 # 📘 Documentação Técnica – MVP: Detecção de Objetos Cortantes
 
 ## 🏁 **Objetivo**
@@ -57,7 +62,7 @@ Desenvolver uma solução de IA para identificar objetos cortantes (usei somente
 
 ### **5. Inferência**
 - Script único: `inference.py` com suporte a imagem ou vídeo
-- DRY principle: uso de função `process_frame()` reutilizada em vídeo e imagem
+- A função `process_frame()` reutilizada em vídeo e imagem
 - Uso de thresholds específicos por classe:
   - `knife`: 0.75
   - `scissors`: 0.55
