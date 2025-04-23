@@ -1,4 +1,7 @@
 # 📘 Como executar inferencia
+
+Edite o arquivo .env com suas credenciais para enviar notificação de email
+
 ```console
 $ pip install -r requirements.txt
 $ python anomaly-detection/inference.py <caminho video ou imagem>
